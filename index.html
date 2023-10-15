@@ -292,31 +292,37 @@
     <section class="contact" id="contato">
         <h2 class="heading">Entre <span>em Contato</span></h2>
 
-        <form action="mailto:caiocosta182@gmail.com" method="post" enctype="text/plain">
+        <form action="https://652af2474791d884f1fd87f4.mockapi.io/api/v1/formIfood2
+        " method="post">
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" placeholder="Nome" required>
+                    <!-- <label for="name">Informe seu nome:</label> -->
+                    <input type="text" id="name" name="name" placeholder="Nome" required>
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
-                    <input type="text" placeholder="Email" required>
+                    <!-- <label for="mail">Informe seu e-mail:</label> -->
+                    <input type="email" id="mail" name="mail" placeholder="Email" required>
                     <span class="focus"></span>
                 </div>
             </div>
 
             <div class="input-box">
                 <div class="input-field">
-                    <input type="text" pattern="\\d{2,3}\ \d{9}" placeholder="Telefone" required>
+                    <!-- <label for="phone">Informe seu número de telefone:</label> -->
+                    <input type="tel" id="phone" name="phone" pattern="\\d{2,3}\ \d{9}" placeholder="Telefone" required>
                     <span class="focus"></span>
                 </div>
                 <div class="input-field">
+                    <!-- <label for="assunto">Escreva o assunto que deseja tratar:</label> -->
                     <input type="text" placeholder="Assunto" required>
                     <span class="focus"></span>
                 </div>
             </div>
 
             <div class="textarea-field">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                <!-- <label for="mensagem">Escreva a mensagem que deseja enviar:</label> -->
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
                 <span class="focus"></span>
             </div>
 

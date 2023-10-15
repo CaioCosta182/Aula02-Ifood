@@ -38,4 +38,6 @@ window.onscroll = () => {
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
 
+    //link projeto github
+    //https://github.com/CaioCosta182/Aula02-Ifood/tree/main
 }
